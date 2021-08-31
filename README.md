@@ -17,7 +17,7 @@ Kursusel aktiivselt osalemiseks on vajalik:
 - **_Github_ konto** https://github.com (jäta salasõna meelde!).
 
 
-- Work is planned to be carried out in RStudio cloud, but you still need to have following software available in your **computer**:
+- You need to have following software available in your **computer**:
     - **R 4.1.0** (2021-05-18 -- "Camp Pontanezen") https://cran.r-project.org, 
     - **RStudio 1.4.1717** (desktop last version) https://www.rstudio.com/products/rstudio/download/, 
     - **git** https://git-scm.com/book/en/v2/Getting-Started-Installing-Git.
