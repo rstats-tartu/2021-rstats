@@ -118,6 +118,14 @@ You should see login screen. **Use "rstudio" as username and "rstudio" as passwo
 </center>
 
 
+### Onliner
+
+If you have Docker installed, RStudio server can be started from terminal with this oneliner. You need to update '/Users/taavi/Projects* to your own path, set your own password (if omitted, then default password is rstudio) and also --name is optional (if omitted, then Docker generates random name):
+
+```bash
+docker run -d -p 8787:8787 -v /Users/taavi/Projects:/home/rstudio -e PASSWORD=mysecretpwd --name rstats-course rocker/verse:4.1.0
+```
+
 ### Easy-peasy!
 
 

@@ -39,54 +39,36 @@ Each session is divided into two parts,
     - second half is dedicated to practical data analysis.
 
 1) **Week 2, 7/9. sept/Sep, 14.15-16.15**
-
-    - Sissejuhatus R-i, Rstudio töölaua sisseseadmine/tutvustus. `?help` ehk kust otsida abi.
-    - Sissejuhatus baas R-i.
-    - Mis on reprodutseeritavus (olen rääkinud sellest tavaliselt lõpus, kuid tegelikult tuleb see kohe üle rääkida) ja andmeanalüüsi töövoog, versioonikontroll (git+github).
     
-
     - Introduction, setting up RStudio workspace. How to search for R `?help`.
     - Introduction to base R.
-    - Introduction to reproducibility, data analysis workflow, version control (git+Github). 
-
-2) **Week 3, 14/16. sept/Sep, 14.15-16.15**
-
-    - Andmete visualiseerimine kasutades **ggplot2**: ggploti komponeerimine, lihtsamad diagrammid, andmete grupeerimine graafikutel kasutades värvi, suurust ja kuju.
-    - Andmete visualiseerimine kasutades ggplot2: andmete esitamine pisijooniste abil, graafikutüüpide kombineerimine, statistiliste kokkuvõtete plottimine.
-    
+    - Slight intro to version control (git + Github).
     - Data visualisation using **ggplot2**: components/layers of ggplot plot, scatterplots, aesthetics: color, size, shape.
     - Data visualisation using **ggplot2**: facetting, combining different types of geoms, plotting statistical summaries.
 
-3) **Week 4, 21/23. sept/Sep, 14.15-16.15**
-
-    - Andmete transformeerimine kasutades **dplyr**-i: "5 verbi".
-    - Andmete transformeerimine kasutades **dplyr**-i: andmete muteerimine ja selleks kasutatavad funktsioonid.
-    - `%>%` (*pipe*) operaatori kasutamine ja andmete transformeerimise "laused".
-
+2) **Week 3, 14/16. sept/Sep, 14.15-16.15**
 
     - Data transformation using five verbs from **dplyr** package. filter + logical operators and missing values, arrange rows, select columns, create new variables with mutate.
-    - Data transformation using **dplyr** package: data mutating and useful mutating functions.
+    - Data transformation using **dplyr** package: mutating and useful mutating functions.
     - How to use `%>%` (*pipe*) operator to compose data transformation sentences.
+
+3) **Week 4, 21/23. sept/Sep, 14.15-16.15**
+
+    - Data grouping and grouped summaries,
+    - Tidy data, formatting data frames/tibbles from wide to long format. Binding data frames by rows and columns and data frame merging by join-s. 
 
 4) **Week 5, 28/30. sept/Sep, 14.15-16.15**
 
-    - Andmete grupeerimine ja summeerimine, andmete importimine tekstifailidest ja exceli failidest
-    - Korrastatud andmed, andmetabelite formaatimine laiast pikaks ja vastupidi. Tabelite liitmine üle ridade ja tulpade ning muutuja-põhine liitmine kasutades *join*-e. 
-
-
-    - Data grouping and grouped summaries, data import from text and excel files.
-    - Tidy data, formatting data frames from wide to long format. Binding data frames by rows and columns and data frame merging by join-s. 
+    - Data import from from common file formats.
+    - Data cleaning.
 
 5) **Week 6, 5/7. okt/Oct, 14.15-16.15**
 
-    - Itereerimine kasutades map funktsioone, *list* tulbad, lineaarne mudel ja mudeli *fittimine*.
-    
-    - Iterating with map function, list columns in data frame, linear model and fitting linear models. Broom package.
+    - Data types.
+    - Iterating with map function, data frame list columns. Fitting linear models in tibble. Broom package.
 
 6) **Week 7, 12/14. okt/Oct, 14.15-16.15**
 
-    - Grupitöö: andmeanalüüs kasutades ette antud andmeid.
-    
     - Groupwork: data analysis using provided dataset.
 
 ## Timing and location
