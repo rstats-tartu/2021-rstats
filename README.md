@@ -22,7 +22,6 @@ Kursusel aktiivselt osalemiseks on vajalik:
     - **RStudio 1.4.1717** (desktop last version) https://www.rstudio.com/products/rstudio/download/, 
     - **git** https://git-scm.com/book/en/v2/Getting-Started-Installing-Git.
 - **Github account** https://github.com (remember your password!).
-- **Rstudio cloud account** https://login.rstudio.cloud/, (login with your Github account!).
 
 ### Docker RStudio
 
