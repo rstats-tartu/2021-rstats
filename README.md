@@ -26,7 +26,7 @@ Kursusel aktiivselt osalemiseks on vajalik:
 
 ### Docker RStudio
 
-Alternatively, you can start using containerized version of R and RStudio for much improved computational reproducibility. Follow [these](Docker.md) instructions how to get started with Docker and run dockerised RStudio server from your web browser. 
+Alternatively, you can start using containerized version of R and RStudio for much improved computational reproducibility. Follow [these instructions](Docker.md) how to get started with Docker and run dockerised RStudio server from your web browser. 
 
 
 ## Programm/Program
