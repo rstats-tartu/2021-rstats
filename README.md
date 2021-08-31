@@ -24,6 +24,10 @@ Kursusel aktiivselt osalemiseks on vajalik:
 - **Github account** https://github.com (remember your password!).
 - **Rstudio cloud account** https://login.rstudio.cloud/, (login with your Github account!).
 
+
+Alternatively, you can start using containerized version of R and RStudio for much improved computational reproducibility. Follow [these](Docker.md) instructions how to get started with Docker and run dockerised RStudio server from your web browser. 
+
+
 ## Programm/Program
 
 Iga sessioon on jaotatud kaheks:
