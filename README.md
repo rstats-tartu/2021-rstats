@@ -23,9 +23,39 @@ Kursusel aktiivselt osalemiseks on vajalik:
     - **git** https://git-scm.com/book/en/v2/Getting-Started-Installing-Git.
 - **Github account** https://github.com (remember your password!).
 
+
+### Required R packages/libraries
+
+We are going to use following R libararies during the course, if you manage to install them before course start then it's good (then we can avoid mass tidyverse install during first session), but we will also show you how to install R packages in first session:    
+
+- **tidyverse** -- metapackage for easy install and load multiple 'tidyverse' packages in a single step, 
+- **here** -- easy file paths by using the top-level directory of a file project, 
+- **lubridate** -- work easier with dates and times,
+- **cowplot** -- publication-quality figures with 'ggplot2',
+- **reprex** -- create easy to share small reproducible examples.
+
+As you can see there are lot's of 'easys', haha.      
+
+
+
+All other packages will be installed when we need them.
+
+These five packages can be installed by executing following code in R console:
+
+``` r
+install.packages(c("tidyverse", "here", "lubridate", "cowplot", "reprex"))
+#> 
+#> The downloaded binary packages are in
+#>  /var/folders/tq/km9fzrbd0lxfddzznrhgyh000000gn/T//RtmpI01nyF/downloaded_packages
+```
+
+<sup>Created on 2021-09-01 by the [reprex package](https://reprex.tidyverse.org) (v2.0.0)</sup>
+
 ### Docker RStudio
 
 Alternatively, you can start using containerized version of R and RStudio for much improved computational reproducibility. Follow [these instructions](Docker.md) how to get started with Docker and run dockerised RStudio server from your web browser. 
+
+> Big plus is that e.g. 'rocker/verse' Docker container comes with preinstalled **tidyverse** packages.
 
 
 ## Programm/Program
