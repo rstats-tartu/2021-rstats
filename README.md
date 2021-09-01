@@ -26,7 +26,7 @@ Kursusel aktiivselt osalemiseks on vajalik:
 
 ### Required R packages/libraries
 
-We are going to use following R libararies during the course, if you manage to install them before course start then it's good (then we can avoid mass tidyverse install during first session), but we will also show you how to install R packages in first session:    
+We are going to use following R libararies during the course:    
 
 - **tidyverse** -- metapackage for easy install and load multiple 'tidyverse' packages in a single step, 
 - **here** -- easy file paths by using the top-level directory of a file project, 
@@ -34,9 +34,7 @@ We are going to use following R libararies during the course, if you manage to i
 - **cowplot** -- publication-quality figures with 'ggplot2',
 - **reprex** -- create easy to share small reproducible examples.
 
-As you can see there are lot's of 'easys', haha.      
-
-
+As you can see there are lot's of 'easys', haha. If you manage to install them before course start then it's good (we can avoid mass tidyverse install during first session), but we will also show you how to install R packages in first session.           
 
 All other packages will be installed when we need them.
 
