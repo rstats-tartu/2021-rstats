@@ -66,7 +66,7 @@ Each session is divided into two parts,
     - in the first half, we go systematically through tidy R data analysis tools and
     - second half is dedicated to practical data analysis.
 
-1) **Week 2, 7/9. sept/Sep, 14.15-16.45**
+1) **Week 2, 7/9 Sep, 14.15-16.45**
     
     - Introduction, setting up RStudio workspace. How to search for R `?help`.
     - Introduction to base R.
@@ -74,28 +74,28 @@ Each session is divided into two parts,
     - Data visualisation using **ggplot2**: components/layers of ggplot plot, scatterplots, aesthetics: color, size, shape.
     - Data visualisation using **ggplot2**: facetting, combining different types of geoms, plotting statistical summaries.
 
-2) **Week 3, 14/16. sept/Sep, 14.15-16.45**
+2) **Week 3, 14/16 Sep, 14.15-16.45**
 
     - Data transformation using five verbs from **dplyr** package. filter + logical operators and missing values, arrange rows, select columns, create new variables with mutate.
     - Data transformation using **dplyr** package: mutating and useful mutating functions.
     - How to use `%>%` (*pipe*) operator to compose data transformation sentences.
 
-3) **Week 4, 21/23. sept/Sep, 14.15-16.45**
+3) **Week 4, 21/23 Sep, 14.15-16.45**
 
     - Data grouping and grouped summaries,
     - Tidy data, formatting data frames/tibbles from wide to long format. Binding data frames by rows and columns and data frame merging by join-s. 
 
-4) **Week 5, 28/30. sept/Sep, 14.15-16.45**
+4) **Week 5, 28/30 Sep, 14.15-16.45**
 
     - Data import from from common file formats.
     - Data cleaning.
 
-5) **Week 6, 5/7. okt/Oct, 14.15-16.45**
+5) **Week 6, 5/7 Oct, 14.15-16.45**
 
     - Data types.
     - Iterating with map function, data frame list columns. Fitting linear models in tibble. Broom package.
 
-6) **Week 7, 12/14. okt/Oct, 14.15-16.45**
+6) **Week 7, 12/14 Oct, 14.15-16.45**
 
     - Groupwork: data analysis using provided dataset.
 
